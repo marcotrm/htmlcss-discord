@@ -162,12 +162,18 @@ section .col-small {
 
 #svg1{
     background-image: url(img/item1.svg);
-    margin-top: 65px;
+    /* margin-top: 65px; */
     background-repeat: no-repeat;
 }
 
 #svg2{
     background-image: url(img/item2.svg);
+    background-repeat: no-repeat;
+}
+
+#svg3{
+    background-image: url(img/item3.svg);
+    background-repeat: no-repeat;
 }
 
 /*-----------
