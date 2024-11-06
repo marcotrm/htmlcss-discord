@@ -33,7 +33,7 @@
     text-align: center;
     color: white;
     margin-bottom: 20px;
-    font-size: 40px;
+    font-size: 50px;
   }
  .description{
     color: white;
@@ -41,6 +41,13 @@
     font-size: 20px;
 }
 
+h2{
+font-size: 40px;
+}
+.scnd-description{
+    font-size: 18px;
+    padding-top: 20px;
+}
 /*-----------
     BUTTONS
 ------------*/
@@ -150,6 +157,13 @@ section .col-big {
 }
 section .col-small {
     width: 40%;
+    padding: 100px;
+}
+
+#svg1{
+    background-image: url(img/item1.svg);
+    margin-top: 65px;
+    background-repeat: no-repeat;
 }
 
 /*-----------
