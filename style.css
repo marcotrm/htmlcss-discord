@@ -15,6 +15,9 @@
     margin-left: auto;
     margin-right: auto;
 }
+.container > .h3{
+    display: flex;
+}
 
 .bg-gray {
     background-color: #F6F6F6;
@@ -48,6 +51,20 @@ font-size: 40px;
     font-size: 18px;
     padding-top: 20px;
 }
+
+.top-section{
+    text-align: center;
+}
+
+.third-description{
+    text-align: center;
+    margin: 0px 150px;
+}
+
+h3{
+font-size: 30px;
+text-align: center;
+}
 /*-----------
     BUTTONS
 ------------*/
@@ -78,6 +95,14 @@ margin-right: 20px;
 .browser{
     background-color: black;
     color: #fff;
+}
+
+.violet{
+    padding: 12px 20px ;
+    margin: 25px 0px;
+    background-color: #8EA1E1;
+    color: #fff;
+   
 }
 
 /*-----------
@@ -114,8 +139,6 @@ margin-right: 20px;
 .header-top .login {
     text-align: right;
 }
-
-
 
 .header-top .main-nav {
     width: 60%;
@@ -160,9 +183,10 @@ section .col-small {
     padding: 100px;
 }
 
+
+ 
 #svg1{
     background-image: url(img/item1.svg);
-    /* margin-top: 65px; */
     background-repeat: no-repeat;
 }
 
@@ -174,6 +198,15 @@ section .col-small {
 #svg3{
     background-image: url(img/item3.svg);
     background-repeat: no-repeat;
+}
+
+#svg4{
+    background-image: url(img/item4-big.svg);
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 55px auto;
+
 }
 
 /*-----------
