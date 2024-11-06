@@ -17,7 +17,7 @@
 }
 
 .bg-gray {
-    background-color: #d3d3d3;
+    background-color: #F6F6F6;
 }
 
 /*-----------
@@ -145,7 +145,7 @@ section {
 }
 
 section:nth-child(2n) {
-    background-color: #d3d3d3;
+    background-color: #F6F6F6;
 }
 
 section > .container {
@@ -164,6 +164,10 @@ section .col-small {
     background-image: url(img/item1.svg);
     margin-top: 65px;
     background-repeat: no-repeat;
+}
+
+#svg2{
+    background-image: url(img/item2.svg);
 }
 
 /*-----------
