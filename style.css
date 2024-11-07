@@ -65,6 +65,10 @@ h3{
 font-size: 30px;
 text-align: center;
 }
+
+h4{
+    font-size: 30px;
+}
 /*-----------
     BUTTONS
 ------------*/
@@ -217,7 +221,7 @@ footer {
 }
 
 .footer-top {
-    padding-top: 10px;
+    padding-top: 60px;
     padding-bottom: 30px;
 }
 
@@ -251,4 +255,40 @@ footer {
 .footer-bottom .logo,
 .footer-bottom .btn {
     padding: 6px 14px;
+}
+
+.col-small{
+    color: #7289DA;
+}
+
+.italy{
+    max-width: 25px;
+    padding-top: 25px;
+}
+
+span{
+    color: white;
+    font-size: 13px;
+    vertical-align: super;
+    padding-left: 5px;
+}
+.logos-container{
+    display: flex;
+    gap: 5%;
+    margin-top: 10px;
+}
+
+.twitter, .instagram, .facebook, .youtube{
+color: #fff;
+
+}
+
+ul, .col-big{
+    list-style: none;
+    color: #fff;
+    line-height: 30px;
+}
+
+ul li:first-child{
+    color: #7188D9;
 }
