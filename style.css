@@ -68,6 +68,7 @@ text-align: center;
 
 h4{
     font-size: 30px;
+    color: #7289DA;
 }
 /*-----------
     BUTTONS
@@ -122,6 +123,7 @@ margin-right: 20px;
     background-image: url(img/jumbo.png);
     background-position: center;
     background-size: cover;
+
 }
 
 .header-top > .container {
@@ -180,7 +182,7 @@ section > .container {
 }
 
 section .col-big {
-    width: 60%;
+    width: 70%;
 }
 section .col-small {
     width: 40%;
@@ -192,16 +194,19 @@ section .col-small {
 #svg1{
     background-image: url(img/item1.svg);
     background-repeat: no-repeat;
+    background-position-y: 60px;
 }
 
 #svg2{
     background-image: url(img/item2.svg);
     background-repeat: no-repeat;
+    background-position-y: 45px;
 }
 
 #svg3{
     background-image: url(img/item3.svg);
     background-repeat: no-repeat;
+    background-position-y: 45px;
 }
 
 #svg4{
@@ -257,9 +262,6 @@ footer {
     padding: 6px 14px;
 }
 
-.col-small{
-    color: #7289DA;
-}
 
 .italy{
     max-width: 25px;
